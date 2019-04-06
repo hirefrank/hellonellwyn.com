@@ -4,6 +4,9 @@ defaultContentLanguage = "en"
 title = "Nellwyn Thomas"
 theme = "hermit"
 
+# disable rss feed
+disableKinds = ["RSS"]
+
 # enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
