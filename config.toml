@@ -1,11 +1,13 @@
 baseURL = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Hugo Hermit"
+title = "Nellwyn Thomas"
 theme = "hermit"
+
 # enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
+
 # hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
@@ -14,7 +16,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # disqusShortname = "yourdiscussshortname"
 
 [author]
-  name = "John Doe"
+  name = "NAT"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -34,9 +36,9 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
-  themeColor = "#494f5c"
+  themeColor = "#cedbef" #494f5c
 
-  homeSubtitle = "A minimal and fast theme for Hugo."
+  homeSubtitle = "Data analyst, scientist, technologist"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -53,15 +55,19 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
     name = "twitter"
-    url = "https://twitter.com/"
+    url = "https://twitter.com/nellwyn"
 
   [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/"
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/nellwyn-thomas/"
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/nellwyn"
+    
+  [[params.social]]
+    name = "email"
+    url = "mailto:hi@hellonellwyn.com"
 
 [menu]
 
