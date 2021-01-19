@@ -4,9 +4,7 @@ date: 2014-04-09
 description: ""
 image: ""
 ---
-My name is Nellwyn Alexandra Thomas, sometimes called Nell Thomas, and sometimes just Nell. 
-
-I work with data, I lead teams, and I try to leave things better than I found them.  
+My name is Nellwyn Alexandra Thomas, but most folks call me Nell. I work with data, I lead teams, and I try to leave things better than I found them.  
 
 * **2019-current**: DNC. At the Democratic National Committee, I lead the Tech team as Chief Technology Officer. The team spans product development, cybersecurity, counter disinformation and analytics. We build infrastructure used by democratic campaigns and state parties to help elect progressive candidates from state houses to the White House.
 * **2017-2019**: Facebook. I joined Facebook to learn about an institution that is so central to the most important societal and technological questions of our day. At Facebook, I  led data science teams that work on products for small businesses, location infrastructure, and the advertising ecosystem across the family of apps. I was a founding organizer of the annual Women in Analytics Conference and data science site lead for FBNY.
