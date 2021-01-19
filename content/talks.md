@@ -6,11 +6,13 @@ date: 2019-04-07T15:40:24.974Z
 
 * [One Year as DNC CTO](https://medium.com/democratictech/one-year-as-dnc-cto-76fa813b7836).
 
-## **Interviews**
+## **Interviews**  
 
 * **MIT Technology Review.** "[Data should enfranchise people, says the Democrats’ head of technology](https://www.technologyreview.com/2020/10/23/1011092/data-should-enfranchise-people-says-the-democrats-head-of-technology/)" Tate Ryan-Mosley, October 2020. 
 * **Bloomberg.** "[A Ton of Disinformation](https://www.bloomberg.com/news/newsletters/2020-10-28/-a-ton-of-disinformation)" Natalia Drozdiak, October 2020. 
 * **Shondaland.** "[5 Women Revolutionizing the Tech World](https://www.shondaland.com/live/technology/a33764611/5-women-revolutionizing-the-tech-world/)" Laura Studarus. August 2020.
+* **FWIW Podcast.** "[The Democrats’ Data Ecosystem](https://for-what-its-worth.simplecast.com/episodes/the-democrats-data-ecosystem-6L7MAJ3u)." October 2019.  
+* **The Great Battlefield Podcast.** "[Data, Analytics and Tech at The DNC](https://soundcloud.com/thegreatbattlefield/data-analytics-and-tech-at-the-dnc-with-nell-thomas-and-kat-atwater)." August 2019.  
 * **GeekWire. "**[DNC’s new tech leader talks about what went wrong in 2016 and how Dems are preparing for 2020](https://www.geekwire.com/2019/dncs-new-tech-leader-talks-went-wrong-2016-dems-preparing-2020/)" Monica Nickelsburg. July 2019.
 * **Refinery29. "**[Exclusive: DNC Appoints First Woman Chief Technology Officer](https://www.refinery29.com/en-us/2019/04/230377/democratic-national-committee-new-hires-chief-technology-officer-nellwyn-thomas)" Natalie Gontcharova. April 2019.
 
