@@ -2,9 +2,11 @@
 title: Hi there!
 date: 2014-04-09
 description: ""
-image: /images/uploads/screen-shot-2020-06-10-at-1.21.24-pm.png
+image: ""
 ---
 My name is Nellwyn Alexandra Thomas, sometimes called Nell Thomas, and sometimes just Nell. 
+
+![](/images/uploads/screen-shot-2020-06-10-at-1.21.24-pm.png)
 
 I work with data, I lead teams, and I try to leave things better than I found them.  
 
