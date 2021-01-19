@@ -39,7 +39,7 @@ googleAnalytics = "UA-137859213-1"
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
-  themeColor = "#53896A" #"#707d90" #494f5c
+  themeColor = "#A8B2C6" #"#707d90" #494f5c
 
   homeSubtitle = "analyst, manager, technologist, human"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
@@ -80,11 +80,11 @@ googleAnalytics = "UA-137859213-1"
 #    weight = 10
 
   [[menu.main]]
-    name = "About"
+    name = "About Nell"
     url = "about/"
     weight = 20
     
   [[menu.main]]
-    name = "Talks"
+    name = "Talks & Articles"
     url = "talks/"
     weight = 20
