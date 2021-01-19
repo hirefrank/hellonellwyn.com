@@ -6,8 +6,6 @@ image: ""
 ---
 My name is Nellwyn Alexandra Thomas, sometimes called Nell Thomas, and sometimes just Nell. 
 
-![](/images/uploads/screen-shot-2020-06-10-at-1.21.24-pm.png)
-
 I work with data, I lead teams, and I try to leave things better than I found them.  
 
 * **2019-current**: DNC. At the Democratic National Committee, I lead the Tech team as Chief Technology Officer. The team spans product development, cybersecurity, counter disinformation and analytics. We build infrastructure used by democratic campaigns and state parties to help elect progressive candidates from state houses to the White House.
