@@ -4,9 +4,10 @@ date: 2019-04-07T15:40:24.974Z
 ---
 ## **Writing**
 
-* [One Year as DNC CTO](https://medium.com/democratictech/one-year-as-dnc-cto-76fa813b7836).
+* [Breaking the boom & bust cycle](<* https://medium.com/democratictech/breaking-the-boom-and-bust-cycle-955643e48949>), January 2021.
+* [One Year as DNC CTO](https://medium.com/democratictech/one-year-as-dnc-cto-76fa813b7836), June 2020.
 
-## **Interviews**  
+## **Interviews**
 
 * **MIT Technology Review.** "[Data should enfranchise people, says the Democrats’ head of technology](https://www.technologyreview.com/2020/10/23/1011092/data-should-enfranchise-people-says-the-democrats-head-of-technology/)" Tate Ryan-Mosley, October 2020. 
 * **Bloomberg.** "[A Ton of Disinformation](https://www.bloomberg.com/news/newsletters/2020-10-28/-a-ton-of-disinformation)" Natalia Drozdiak, October 2020. 
