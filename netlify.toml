@@ -29,3 +29,8 @@ HUGO_VERSION = "0.54.0"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
+[[redirects]]
+  from = "/cal"
+  to = "https://calendar.hirefrank.com/nellwyn"
+  status = 301
+  force = true
