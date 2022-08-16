@@ -10,7 +10,7 @@ date: 2022-08-16T18:04:21.730Z
 
 ## **Interviews**
 
-* **Recode Media with Peter Kafka.** "[Why the Democrats finally got on TikTok](https://podcasts.apple.com/us/podcast/why-the-democrats-finally-got-on-tiktok/id1080467174?i=1000575729823)[](https://podcasts.apple.com/us/podcast/why-the-democrats-finally-got-on-tiktok/id1080467174?i=1000575729823)." August 2022. 
+* **Recode Media with Peter Kafka.** "[Why the Democrats finally got on TikTok](https://podcasts.apple.com/us/podcast/why-the-democrats-finally-got-on-tiktok/id1080467174?i=1000575729823)." August 2022. 
 * **MIT Technology Review.** "[Data should enfranchise people, says the Democrats’ head of technology](https://www.technologyreview.com/2020/10/23/1011092/data-should-enfranchise-people-says-the-democrats-head-of-technology/)" Tate Ryan-Mosley, October 2020. 
 * **Bloomberg.** "[A Ton of Disinformation](https://www.bloomberg.com/news/newsletters/2020-10-28/-a-ton-of-disinformation)" Natalia Drozdiak, October 2020. 
 * **Shondaland.** "[5 Women Revolutionizing the Tech World](https://www.shondaland.com/live/technology/a33764611/5-women-revolutionizing-the-tech-world/)" Laura Studarus. August 2020.
