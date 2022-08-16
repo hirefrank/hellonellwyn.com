@@ -1,14 +1,16 @@
 ---
 title: Selected Talks & Articles
-date: 2019-04-07T15:40:24.974Z
+date: 2022-08-16T18:04:21.730Z
 ---
 ## **Writing**
 
+* [We’re Bringing Advanced Data Infrastructure to Thousands of Midterm Campaigns](https://medium.com/democratictech/were-bringing-advanced-data-infrastructure-to-thousands-of-midterm-campaigns-2bfb32f400bc), March 2022.
 * [Breaking the boom & bust cycle](<* https://medium.com/democratictech/breaking-the-boom-and-bust-cycle-955643e48949>), January 2021.
 * [One Year as DNC CTO](https://medium.com/democratictech/one-year-as-dnc-cto-76fa813b7836), June 2020.
 
 ## **Interviews**
 
+* **Recode Media with Peter Kafka.** "[Why the Democrats finally got on TikTok](https://podcasts.apple.com/us/podcast/why-the-democrats-finally-got-on-tiktok/id1080467174?i=1000575729823)[](https://podcasts.apple.com/us/podcast/why-the-democrats-finally-got-on-tiktok/id1080467174?i=1000575729823)." August 2022. 
 * **MIT Technology Review.** "[Data should enfranchise people, says the Democrats’ head of technology](https://www.technologyreview.com/2020/10/23/1011092/data-should-enfranchise-people-says-the-democrats-head-of-technology/)" Tate Ryan-Mosley, October 2020. 
 * **Bloomberg.** "[A Ton of Disinformation](https://www.bloomberg.com/news/newsletters/2020-10-28/-a-ton-of-disinformation)" Natalia Drozdiak, October 2020. 
 * **Shondaland.** "[5 Women Revolutionizing the Tech World](https://www.shondaland.com/live/technology/a33764611/5-women-revolutionizing-the-tech-world/)" Laura Studarus. August 2020.
@@ -19,6 +21,7 @@ date: 2019-04-07T15:40:24.974Z
 
 ## **Event Speaking**
 
+* **Managing Technical Humans 101.** Debug Summit 2021. [Link](https://events.bizzabo.com/349632/agenda/session/678953).
 * **Election Technology Debrief 2020.** The Future of Political Tech Plenary Panel. [Video](https://events.bizzabo.com/281791/agenda/session/455353).
 * **Institute for Security and Technology 2020.** Active Measures, Disinformation Campaigns, and Election Security with Nellwyn Thomas and Thomas Rid. [Video](https://www.youtube.com/watch?v=ypD_uSQlNZI&feature=emb_logo). 
 * **Women in Analytics 2019**: Co-organizer. [Link](https://womeninanalytics2019.splashthat.com)
