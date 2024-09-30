@@ -30,8 +30,8 @@ export default defineConfig({
     collections: [
       {
         name: "post",
-        label: "Posts",
-        path: "content/posts",
+        label: "Blog",
+        path: "src/content/blog",
         fields: [
           {
             type: "string",
