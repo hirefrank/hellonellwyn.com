@@ -7,8 +7,8 @@
     "alt": "Dante - Astro.js and Tailwind CSS theme"
   },
   "hero": {
-    "title": "Hi, I'm Nell! ",
-    "text": "I work with data, I lead teams, and I try to leave things better than I found them.\n",
+    "title": "I work with data, I lead teams, and I try to leave things better than I found them.",
+    "text": "",
     "image": {
       "src": "",
       "alt": ""
