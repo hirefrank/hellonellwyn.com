@@ -1,0 +1,55 @@
+{
+    "title": "Nellwyn Thomas",
+    "subtitle": "",
+    "description": "VP of Data at Shopify and data executive based in New York.",
+    // "image": {
+    //     "src": "/about.jpeg",
+    //     "alt": "Nellwyn Thomas"
+    // },
+    "hero": {
+        "title": "I work with data, I lead teams, and I try to leave things better than I found them.",
+        "text": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        },
+        "actions": [
+            {
+                "text": "Get in Touch",
+                "href": "/contact"
+            }
+        ]
+    },
+    "postsPerPage": 8,
+    "projectsPerPage": 8,
+    "headerNavLinks": [
+        {
+            "text": "Home",
+            "href": "/"
+        },
+        {
+            "text": "Talks",
+            "href": "/talks"
+        }
+    ],
+    "footerNavLinks": [
+        {
+            "text": "About",
+            "href": "/about"
+        },
+        {
+            "text": "Contact",
+            "href": "/contact"
+        }
+    ],
+    "socialLinks": [
+        {
+            "text": "X/Twitter",
+            "href": "https://x.com/nellwyn"
+        },
+        {
+            "text": "LinkedIn",
+            "href": "https://www.linkedin.com/in/nellwyn-thomas/"
+        }
+    ]
+}
