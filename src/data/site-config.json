@@ -1,11 +1,11 @@
 {
-    "title": "Nellwyn Alexandra Thomas",
+    "title": "Nellwyn Thomas",
     "subtitle": "",
-    "description": "A place to say hello",
-    "image": {
-        "src": "/dante-preview.jpg",
-        "alt": "Dante - Astro.js and Tailwind CSS theme"
-    },
+    "description": "VP of Data at Shopify and data executive based in New York.",
+    // "image": {
+    //     "src": "/about.jpeg",
+    //     "alt": "Nellwyn Thomas"
+    // },
     "hero": {
         "title": "I work with data, I lead teams, and I try to leave things better than I found them.",
         "text": "",
@@ -19,11 +19,6 @@
                 "href": "/contact"
             }
         ]
-    },
-    "subscribe": {
-        "title": "Subscribe to Dante Newsletter",
-        "text": "One update per week. All the latest posts directly in your inbox.",
-        "formUrl": "#"
     },
     "postsPerPage": 8,
     "projectsPerPage": 8,
