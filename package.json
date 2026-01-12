@@ -1,28 +1,25 @@
 {
-    "name": "dante-astro-theme",
+    "name": "hellonellwyn.com",
     "type": "module",
     "version": "0.0.1",
     "scripts": {
-        "dev": "tinacms dev -c \"astro dev\"",
+        "dev": "astro dev",
         "start": "astro dev",
-        "build": "tinacms build && astro build",
+        "build": "astro build",
         "preview": "astro preview",
         "astro": "astro"
     },
     "dependencies": {
-        "@astrojs/mdx": "^3.1.7",
-        "@astrojs/rss": "^4.0.7",
-        "@astrojs/sitemap": "^3.1.6",
+        "@astrojs/mdx": "^4.3.13",
+        "@astrojs/rss": "^4.0.14",
+        "@astrojs/sitemap": "^3.6.1",
         "@astrojs/tailwind": "^5.1.1",
-        "astro": "^4.15.9",
+        "astro": "^5.16.8",
         "marked": "^14.1.2",
-        "tailwindcss": "^3.4.13",
-        "tinacms": "^2.2.5"
+        "tailwindcss": "^3.4.13"
     },
     "devDependencies": {
         "@tailwindcss/typography": "^0.5.15",
-        "@tinacms/cli": "^1.6.5",
-        "@types/node": "^22.7.4",
         "prettier": "^3.3.3",
         "prettier-plugin-tailwindcss": "^0.6.8"
     }

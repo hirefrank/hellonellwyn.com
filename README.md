@@ -1,92 +1,66 @@
-# Dante - Astro & Tailwind CSS Theme by justgoodui.com
+# hellonellwyn.com
 
-Dante is a single-author blog and portfolio theme for Astro.js. Featuring a minimal, slick, responsive and content-focused design. For more Astro.js themes please check [justgoodui.com](https://justgoodui.com/).
+Personal website for Nellwyn Thomas. Built on [Astro](https://astro.build/) with the Dante theme.
 
-![Dante Astro.js Theme](public/dante-preview.jpg)
+## Site Configuration
 
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JustGoodUI/dante-astro-theme)
+Edit `src/data/site-config.json` to customize the site:
 
-If you click this☝️ button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
+| Property          | Description                                                 |
+| :---------------- | :---------------------------------------------------------- |
+| `title`           | Site title (displayed in header/logo and footer copyright)  |
+| `subtitle`        | Optional subtitle shown below title in header               |
+| `description`     | Site description for SEO and Open Graph                     |
+| `image`           | Default OG image (src/alt)                                  |
+| `hero`            | Hero section: `title`, `text`, `image`, `actions` (buttons) |
+| `subscribe`       | Newsletter section: `title`, `text`, `formUrl`              |
+| `postsPerPage`    | Blog posts per page (if blog enabled)                       |
+| `projectsPerPage` | Projects per page (if projects enabled)                     |
+| `headerNavLinks`  | Navigation links in header                                  |
+| `footerNavLinks`  | Links in footer navigation                                  |
+| `socialLinks`     | Social media links shown in footer                          |
 
-## Theme Features:
+### Example hero action
 
-- ✅ Dark and light color mode
-- ✅ Hero section with bio
-- ✅ Portfolio collection
-- ✅ Pagination support
-- ✅ Post tags support
-- ✅ Subscription form
-- ✅ View transitions
-- ✅ Tailwind CSS
-- ✅ Mobile-first responsive layout
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
-
-## Template Integrations
-
-- @astrojs/tailwind - https://docs.astro.build/en/guides/integrations-guide/tailwind/
-- @astrojs/sitemap - https://docs.astro.build/en/guides/integrations-guide/sitemap/
-- @astrojs/mdx - https://docs.astro.build/en/guides/markdown-content/
-- @astrojs/rss - https://docs.astro.build/en/guides/rss/
-
-## Project Structure
-
-Inside of Dante Astro theme, you'll see the following folders and files:
-
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── data/
-│   ├── icons/
-│   ├── layouts/
-│   ├── pages/
-│   ├── styles/
-│   └── utils/
-├── astro.config.mjs
-├── package.json
-├── README.md
-├── tailwind.config.cjs
-└── tsconfig.json
+```json
+"actions": [
+    { "text": "Contact Me", "href": "/contact" },
+    { "text": "View Work", "href": "/projects" }
+]
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Sections
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro (`.astro`) components.
+Currently enabled:
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+- Home (with hero section)
+- About page
+- Contact page
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Archived Content
 
-## Astro.js Commands
+Reference content is preserved in `archive/` for potential future use:
 
-All commands are run from the root of the project, from a terminal:
+- `archive/blog/` - Blog post templates
+- `archive/projects/` - Project case study templates
+- `archive/pages/_terms.md` - Terms page template
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+To re-enable a section:
 
-## Want to learn more about Astro.js?
+1. Move files from `archive/` to `src/content/`
+2. Add the collection schema to `src/content.config.ts`
+3. Uncomment/update relevant page routes in `src/pages/`
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Commands
 
-## Credits
+| Command        | Action                             |
+| :------------- | :--------------------------------- |
+| `pnpm start`   | Start dev server at localhost:4321 |
+| `pnpm build`   | Build production site to `./dist/` |
+| `pnpm preview` | Preview build locally              |
 
-- Demo content generate with [Chat GPT](https://chat.openai.com/)
-- Images for demo content from [Unsplash](https://unsplash.com/)
+## Tech Stack
 
-## Astro Themes by Just Good UI
-
-- [Ovidius](https://github.com/JustGoodUI/ovidius-astro-theme) is a free single author blog theme.
-
-## License
-
-Licensed under the [GPL-3.0](https://github.com/JustGoodUI/dante-astro-theme/blob/main/LICENSE) license.
+- Astro 5.x
+- Tailwind CSS
+- MDX support

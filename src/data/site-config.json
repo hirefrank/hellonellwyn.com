@@ -1,80 +1,60 @@
 {
-  "title": "Nellwyn Alexandra Thomas",
-  "subtitle": "",
-  "description": "A place to say hello",
-  "image": {
-    "src": "/dante-preview.jpg",
-    "alt": "Dante - Astro.js and Tailwind CSS theme"
-  },
-  "hero": {
-    "title": "I work with data, I lead teams, and I try to leave things better than I found them.",
-    "text": "",
+    "title": "Nellwyn Alexandra Thomas",
+    "subtitle": "",
+    "description": "A place to say hello",
     "image": {
-      "src": "",
-      "alt": ""
+        "src": "/dante-preview.jpg",
+        "alt": "Dante - Astro.js and Tailwind CSS theme"
     },
-    "actions": [
-      {
-        "text": "Get in Touch",
-        "href": "/contact"
-      }
+    "hero": {
+        "title": "I work with data, I lead teams, and I try to leave things better than I found them.",
+        "text": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        },
+        "actions": [
+            {
+                "text": "Get in Touch",
+                "href": "/contact"
+            }
+        ]
+    },
+    "subscribe": {
+        "title": "Subscribe to Dante Newsletter",
+        "text": "One update per week. All the latest posts directly in your inbox.",
+        "formUrl": "#"
+    },
+    "postsPerPage": 8,
+    "projectsPerPage": 8,
+    "headerNavLinks": [
+        {
+            "text": "Home",
+            "href": "/"
+        },
+        {
+            "text": "Talks",
+            "href": "/talks"
+        }
+    ],
+    "footerNavLinks": [
+        {
+            "text": "About",
+            "href": "/about"
+        },
+        {
+            "text": "Contact",
+            "href": "/contact"
+        }
+    ],
+    "socialLinks": [
+        {
+            "text": "X/Twitter",
+            "href": "https://x.com/nellwyn"
+        },
+        {
+            "text": "LinkedIn",
+            "href": "https://www.linkedin.com/in/nellwyn-thomas/"
+        }
     ]
-  },
-  "subscribe": {
-    "title": "Subscribe to Dante Newsletter",
-    "text": "One update per week. All the latest posts directly in your inbox.",
-    "formUrl": "#"
-  },
-  "postsPerPage": 8,
-  "projectsPerPage": 8,
-  "headerNavLinks": [
-    {
-      "text": "Home",
-      "href": "/"
-    },
-    {
-      "text": "Projects",
-      "href": "/projects"
-    },
-    {
-      "text": "Blog",
-      "href": "/blog"
-    },
-    {
-      "text": "Tags",
-      "href": "/tags"
-    }
-  ],
-  "footerNavLinks": [
-    {
-      "text": "About",
-      "href": "/about"
-    },
-    {
-      "text": "Contact",
-      "href": "/contact"
-    },
-    {
-      "text": "Terms",
-      "href": "/terms"
-    },
-    {
-      "text": "Download theme",
-      "href": "https://github.com/JustGoodUI/dante-astro-theme"
-    }
-  ],
-  "socialLinks": [
-    {
-      "text": "Dribbble",
-      "href": "https://dribbble.com/"
-    },
-    {
-      "text": "Instagram",
-      "href": "https://instagram.com/"
-    },
-    {
-      "text": "X/Twitter",
-      "href": "https://twitter.com/"
-    }
-  ]
 }
