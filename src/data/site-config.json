@@ -32,7 +32,12 @@
             "href": "/talks"
         }
     ],
+    "footerNavLinks": [],
     "socialLinks": [
+        {
+            "text": "Contact",
+            "href": "/contact"
+        },
         {
             "text": "X/Twitter",
             "href": "https://x.com/nellwyn"
