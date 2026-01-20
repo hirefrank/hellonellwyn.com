@@ -28,18 +28,12 @@
             "href": "/"
         },
         {
-            "text": "Talks",
-            "href": "/talks"
-        }
-    ],
-    "footerNavLinks": [
-        {
             "text": "About",
             "href": "/about"
         },
         {
-            "text": "Contact",
-            "href": "/contact"
+            "text": "Talks",
+            "href": "/talks"
         }
     ],
     "socialLinks": [
