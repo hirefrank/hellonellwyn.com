@@ -1,0 +1,106 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import ArrowRight from '../icons/ArrowRight.astro';
+
+const talks = await getCollection('talks');
+
+const writing = talks.filter(t => t.data.type === 'writing').sort((a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf());
+const interviews = talks.filter(t => t.data.type === 'interview').sort((a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf());
+const speaking = talks.filter(t => t.data.type === 'speaking').sort((a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf());
+
+function formatDate(dateStr: string): Date {
+    const date = new Date(dateStr);
+    return isNaN(date.valueOf()) ? new Date() : date;
+}
+
+function slugify(text: string): string {
+    return text.toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/(^-|-$)+/g, '');
+}
+---
+
+<BaseLayout title="Talks & Articles" description="Selected talks and articles by Nellwyn Thomas" showHeader={false}>
+    <article class="mb-16 sm:mb-24">
+        <header class="mb-12">
+            <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">Selected Talks & Articles</h1>
+        </header>
+
+        {writing.length > 0 && (
+            <section class="mb-12">
+                <h2 class="mb-6 text-xl font-serif italic sm:text-2xl">Writing</h2>
+                <ul class="space-y-6">
+                    {writing.map((talk) => (
+                        <li class="group" id={slugify(talk.data.title)}>
+                            <a href={talk.data.url} target="_blank" rel="noopener noreferrer" class="flex justify-between items-start gap-4">
+                                <div class="grow">
+                                    <span class="text-lg leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-xl">
+                                        {talk.data.title}
+                                    </span>
+                                    {talk.data.publication && (
+                                        <span class="block mt-1 text-sm text-gray-600">{talk.data.publication}</span>
+                                    )}
+                                </div>
+                                <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
+                                    <ArrowRight class="fill-current w-4 h-4" />
+                                </div>
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            </section>
+        )}
+
+        {interviews.length > 0 && (
+            <section class="mb-12">
+                <h2 class="mb-6 text-xl font-serif italic sm:text-2xl">Interviews</h2>
+                <ul class="space-y-6">
+                    {interviews.map((talk) => (
+                        <li class="group" id={slugify(talk.data.title)}>
+                            <a href={talk.data.url} target="_blank" rel="noopener noreferrer" class="flex justify-between items-start gap-4">
+                                <div class="grow">
+                                    <span class="text-lg leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-xl">
+                                        {talk.data.title}
+                                    </span>
+                                    <span class="block mt-1 text-sm text-gray-600">
+                                        {talk.data.publication}
+                                    </span>
+                                </div>
+                                <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
+                                    <ArrowRight class="fill-current w-4 h-4" />
+                                </div>
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            </section>
+        )}
+
+        {speaking.length > 0 && (
+            <section class="mb-12">
+                <h2 class="mb-6 text-xl font-serif italic sm:text-2xl">Event Speaking</h2>
+                <ul class="space-y-6">
+                    {speaking.map((talk) => (
+                        <li class="group" id={slugify(talk.data.title)}>
+                            <a href={talk.data.url} target="_blank" rel="noopener noreferrer" class="flex justify-between items-start gap-4">
+                                <div class="grow">
+                                    <span class="text-lg leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-xl">
+                                        {talk.data.title}
+                                    </span>
+                                    <span class="block mt-1 text-sm text-gray-600">
+                                        {talk.data.publication}
+                                    </span>
+                                </div>
+                                <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
+                                    <ArrowRight class="fill-current w-4 h-4" />
+                                </div>
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            </section>
+        )}
+    </article>
+</BaseLayout>
